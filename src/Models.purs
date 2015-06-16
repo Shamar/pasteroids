@@ -1,8 +1,8 @@
 module Models where
 
-import Prelude
-import Data.Monoid
-import Math
+import Prelude (Show, show, Semigroup, (<>), ($), (++), (+), (%), (*), (/))
+import Data.Monoid (Monoid, mempty)
+import Math (sin, cos, pi)
 
 import DDD
 
